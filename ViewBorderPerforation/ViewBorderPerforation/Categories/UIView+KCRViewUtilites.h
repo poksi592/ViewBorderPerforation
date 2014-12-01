@@ -1,14 +1,9 @@
 //
-//  UIView+KCRViewUtilites.h
-//  Kindred Core
+//  ViewController.h
+//  ViewBorderPerforation
 //
-//  Created by Mladen Despotovic on 11/05/2014.
-//  Copyright 2003-2014 Monitise Group Limited. All Right Reserved.
-//
-//  Save to the extent permitted by law, you may not use, copy, modify,
-//  distribute or create derivative works of this material or any part
-//  of it without the prior written consent of Monitise Group Limited.
-//  Any reproduction of this material must contain this notice.
+//  Created by Mladen Despotovic on 01/12/14.
+//  Copyright (c) 2014 Mladen Despotovic. All rights reserved.
 //
 
 typedef NS_OPTIONS(NSInteger, KCRPerforationPosition)
