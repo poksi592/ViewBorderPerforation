@@ -26,6 +26,14 @@ typedef NS_OPTIONS(NSInteger, KCRPerforationPosition)
  */
 @interface UIView (KCRViewUtilites)
 
+/**
+ Method cuts perforation that is defined by circle and lines between specified number of dots on the circle radius
+ thus acomplishing cutting various patterns
+ 
+ @param paramRadius Radius of the circle
+ @param paramPoints Number of pounts on circle radius connected with line
+ @param paramPositions 2 possible positions defined as KCRPerforationPosition options
+ */
 - (void)cutRoundDiscretePerforationWithRadius:(CGFloat)paramRadius
                                pointsOnCircle:(NSUInteger)paramPoints
                                   onPositions:(KCRPerforationPosition)paramPositions;
