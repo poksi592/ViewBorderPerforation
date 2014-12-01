@@ -30,10 +30,10 @@ typedef NS_OPTIONS(NSInteger, KCRPerforationPosition)
                                pointsOnCircle:(NSUInteger)paramPoints
                                   onPositions:(KCRPerforationPosition)paramPositions;
 
-- (void)cutRoundPerforationWithRadius:(CGFloat)paramRadius
-                          onPositions:(KCRPerforationPosition)paramPositions;
-
 - (void)cutSquarePerforationWithLength:(CGFloat)paramLength
+                           onPositions:(KCRPerforationPosition)paramPositions;
+
+- (void)cutSeesawPerforationWithLength:(CGFloat)paramLength
                            onPositions:(KCRPerforationPosition)paramPositions;
 
 

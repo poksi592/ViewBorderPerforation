@@ -28,8 +28,26 @@
     [super viewDidLoad];
    
     [self.foregroundView1 cutRoundDiscretePerforationWithRadius:20.0f
-                                                         pointsOnCircle:3.0f
-                                                            onPositions:KCRPerforationPositionLeft | KCRPerforationPositionRight];
+                                                         pointsOnCircle:1.0f
+                                                            onPositions:KCRPerforationPositionTop | KCRPerforationPositionRight ];
+    
+    [self.foregroundView2 cutRoundDiscretePerforationWithRadius:20.0f
+                                                 pointsOnCircle:2.0f
+                                                    onPositions:KCRPerforationPositionTop | KCRPerforationPositionRight ];
+    
+    [self.foregroundView3 cutRoundDiscretePerforationWithRadius:20.0f
+                                                 pointsOnCircle:3.0f
+                                                    onPositions:KCRPerforationPositionTop | KCRPerforationPositionRight ];
+    
+    [self.foregroundView4 cutRoundDiscretePerforationWithRadius:20.0f
+                                                 pointsOnCircle:20.0f
+                                                    onPositions:KCRPerforationPositionTop | KCRPerforationPositionRight ];
+    
+    [self.foregroundView5 cutSquarePerforationWithLength:25.0f
+                                             onPositions:KCRPerforationPositionTop | KCRPerforationPositionRight];
+    
+    [self.foregroundView6 cutSeesawPerforationWithLength:21.0f
+                                             onPositions:KCRPerforationPositionTop | KCRPerforationPositionBottom];
 }
 
 
